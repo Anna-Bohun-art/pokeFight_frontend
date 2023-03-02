@@ -181,7 +181,7 @@ input[type="searchText"]:focus {
 }
 /* Search bar css */
 .playerForm > form > .playbtn,
-.searchResults > .playbtn {
+.selectedPokefight > .playbtn {
   margin-left: 30px;
   margin-top: 20px;
   min-width: 150px;
@@ -250,12 +250,12 @@ input[type="searchText"]:focus {
   color: white;
 }
 .thewinner h1 {
-  color: #f19100;
+  color: white;
   font-size: 14;
   padding-left: 10px;
 }
 .thewinner h1:hover {
-  color: white;
+  color: #ffd662;
 }
 .thewinner > .winner {
   display: inline-grid;
@@ -630,4 +630,27 @@ th {
   text-align: center;
   background-color: #f19100;
   color: white;
+}
+.pokemonToFight {
+  width: 100vw;
+  min-height: 40vh;
+  display: inline-grid;
+  place-items: left;
+  grid-template-columns: 1fr 1fr 1fr;
+  flex-wrap: wrap;
+}
+.paginationSearch {
+  grid-column: 1/2;
+  position: relative;
+}
+.playerPokemon {
+  grid-column: 2/3;
+  position: relative;
+  margin-top: 50px;
+}
+.leftColumn > .results {
+  place-items: left;
+}
+.result {
+  margin-top: 10px;
 }

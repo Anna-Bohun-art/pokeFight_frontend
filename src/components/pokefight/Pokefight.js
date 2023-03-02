@@ -23,14 +23,15 @@ function Pokefight({ allPokemons, selectedPokemon, setSelectedPokemon }) {
         </div>
         <div className="selectedPokefight">
           <SearchBar setSelectedPokemon={setSelectedPokemon} />
+          <button
+            disabled={!selectedPokemon}
+            className="playbtn"
+            onClick={goToArena}
+          >
+            Let's fight
+          </button>
         </div>
-        <button
-          disabled={!selectedPokemon}
-          className="playbtn"
-          onClick={goToArena}
-        >
-          Let's fight
-        </button>
+
         {/* {selectedPokemon === null ? (
           <button
             disabled={disableButon}
