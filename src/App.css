@@ -547,6 +547,8 @@ a.nostyle:visited {
 }
 a {
   display: inline-block;
+  text-decoration: inherit;
+  color: #11686c;
 }
 .nir > a,
 .nir > h3 {

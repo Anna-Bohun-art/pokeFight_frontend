@@ -1,19 +1,11 @@
 import SearchBar from "../searchbar/SearchBar";
 import { useNavigate } from "react-router-dom";
-import react, { useState, useEffect } from "react";
 
 function Pokefight({ allPokemons, selectedPokemon, setSelectedPokemon }) {
-  const [disableButton, setDisableButton] = useState(true);
-  console.log("selectedPokemon", selectedPokemon);
   const navigate = useNavigate();
   const goToArena = () => {
     navigate("/fightarena");
   };
-  useEffect(() => {
-    if (selectedPokemon) {
-      setDisableButton(false);
-    }
-  }, [selectedPokemon]);
 
   return (
     <div className="pokefight-container">
@@ -23,11 +15,7 @@ function Pokefight({ allPokemons, selectedPokemon, setSelectedPokemon }) {
         </div>
         <div className="selectedPokefight">
           <SearchBar setSelectedPokemon={setSelectedPokemon} />
-          <button
-            disabled={!selectedPokemon}
-            className="playbtn"
-            onClick={goToArena}
-          >
+          <button className="playbtn" onClick={goToArena}>
             Let's fight
           </button>
         </div>
