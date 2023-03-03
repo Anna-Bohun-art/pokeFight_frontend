@@ -4,138 +4,40 @@ Pokefight is the MERN (MongoDB, Express JS, React JS and Node JS) Project as an 
 
 - Building a Single Page Application with React
 - Implementing static and dynamic React routing
-  Expand
+- Fetching, displaying and updating data from the API
+- Building a RESTful API using Node, Express, MongoDB
+- Using ReactHooks (useState, useEffect, useNavigate)
+- Implementing search bar and pagination
+- Displaying the score with Leaderboard
+- functionality to display the number of the active players
+
+  ➡ Check out [Pokefight](https://pokefight-frontend-mernstack.netlify.app/)
+
+## Tech Stack
+
+**[Client](https://github.com/payalthummar/PokeFight-FrontEnd):** React, CSS
+
+**[Server](https://github.com/payalthummar/Pokefight-Backend):** Node.js, Express, MongoDB
+
+**Deployed with:** Netlify (client), Render (server)
+
+## Overview
+
+**The user can:**
+
+- Enter name to play
+- Search for Pokemon by name or select the Pokemon
+- As an offend random pokemon will be displayed from the database
+- If the user wins the fight, the user can play again
+- If the user lost the game, the user will be redirected to the homepage
+
+## Authors
+
+- [@payalthummar](https://github.com/payalthummar)
+- [@Anna-Bohun-art](https://github.com/payalthummar)
+- [@nirgluzman](https://github.com/nirgluzman)
   message.txt
   3 KB
-  do you have time?
-  can I call you
-  AnnaBohun — Today at 1:33 PM
-  Hello
-  Right now not really
-  My ill child is sleeping in my room
-  I have done the header and also the color of error message
-  The last changes netlify uploaded by itself
-  Payal — Today at 1:34 PM
-  I have sent you read.me file
-  AnnaBohun — Today at 1:34 PM
-  So the new version is already alive
-  Payal — Today at 1:34 PM
-  could you check it or correct it
-  AnnaBohun — Today at 1:34 PM
-  I did it
-  It works
-  When you press on logo it goes to home page
-  Payal — Today at 1:35 PM
-  good
-  AnnaBohun — Today at 1:35 PM
-  Yes I have add one sentence just to mention that this is MERN project
-  Payal — Today at 1:36 PM
-  yes
-  I see
-  But I have added more you can check my file and correct it and add it to your readMe file
-  AnnaBohun — Today at 1:36 PM
-  You can also check how I added this project to Linkedin
-  I had not find the better idea
-  So if you find please let me know
-  Payal — Today at 1:36 PM
-  yes I will let you know
-  AnnaBohun — Today at 1:36 PM
-  oh, ok thanks, I will take a look
-  Payal — Today at 1:37 PM
-  check my Read Me fille and if there is any correction let me know
-  AnnaBohun — Today at 1:37 PM
-  I do not see your readme file updated on git
-  Payal — Today at 1:38 PM
-  I sent you in discord
-  AnnaBohun — Today at 1:38 PM
-  Oh, so much
-  Thanks Payal
-  I will change to your version
-  Payal — Today at 1:39 PM
-  yeah sure
-
-Payal#8799
-
-# Pokefight
-
-Pokefight is the MERN (MongoDB, Express JS, React JS and Node JS) Project as an opportunity to practice and learn more about:
-
-- Building a Single Page Application with React
-- Implementing static and dynamic React routing
-- Fetching, displaying and updating data from the API
-- Building a RESTful API using Node, Express, MongoDB
-- Using ReactHooks (useState, useEffect, useNavigate)
-- Implementing search bar and pagination
-- Displaying the score with Leaderboard
-- functionality to display the number of the active players
-
-  ➡ Check out [Pokefight](https://pokefight-frontend-mernstack.netlify.app/)
-
-## Tech Stack
-
-**[Client](https://github.com/payalthummar/PokeFight-FrontEnd):** React, CSS
-
-**[Server](https://github.com/payalthummar/Pokefight-Backend):** Node.js, Express, MongoDB
-
-**Deployed with:** Netlify (client), Render (server)
-
-## Overview
-
-**The user can:**
-
-- Enter name to play
-- Search for Pokemon by name or select the Pokemon
-- As an offend random pokemon will be displayed from the database
-- If the user wins the fight, the user can play again
-- If the user lost the game, the user will be redirected to the homepage
-
-## Authors
-
-- [@payalthummar](https://github.com/payalthummar)
-- [@Anna-Bohun-art](https://github.com/payalthummar)
-- [@nirgluzman](https://github.com/nirgluzman)
-
-# Pokefight
-
-Pokefight is the MERN (MongoDB, Express JS, React JS and Node JS) Project as an opportunity to practice and learn more about:
-
-- Building a Single Page Application with React
-- Implementing static and dynamic React routing
-- Fetching, displaying and updating data from the API
-- Building a RESTful API using Node, Express, MongoDB
-- Using ReactHooks (useState, useEffect, useNavigate)
-- Implementing search bar and pagination
-- Displaying the score with Leaderboard
-- functionality to display the number of the active players
-
-  ➡ Check out [Pokefight](https://pokefight-frontend-mernstack.netlify.app/)
-
-## Tech Stack
-
-**[Client](https://github.com/payalthummar/PokeFight-FrontEnd):** React, CSS
-
-**[Server](https://github.com/payalthummar/Pokefight-Backend):** Node.js, Express, MongoDB
-
-**Deployed with:** Netlify (client), Render (server)
-
-## Overview
-
-**The user can:**
-
-- Enter name to play
-- Search for Pokemon by name or select the Pokemon
-- As an offend random pokemon will be displayed from the database
-- If the user wins the fight, the user can play again
-- If the user lost the game, the user will be redirected to the homepage
-
-## Authors
-
-- [@payalthummar](https://github.com/payalthummar)
-- [@Anna-Bohun-art](https://github.com/payalthummar)
-- [@nirgluzman](https://github.com/nirgluzman)
-
-message.txt
-3 KB
 
 # Getting Started with Create React App
 
