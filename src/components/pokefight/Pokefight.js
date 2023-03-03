@@ -19,21 +19,6 @@ function Pokefight({ allPokemons, selectedPokemon, setSelectedPokemon }) {
             Let's fight
           </button>
         </div>
-
-        {/* {selectedPokemon === null ? (
-          <button
-            disabled={disableButon}
-            className="playbtn"
-            onClick={goToArena}
-          >
-            Let's fight
-          </button>
-        ) : (
-          <button className="playbtn">Let's fight</button>
-        )} */}
-        {/*<button className="playbtn" onClick={goToArena}>
-          Let's fight
-      </button>*/}
       </div>
     </div>
   );
